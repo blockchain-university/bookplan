@@ -1,0 +1,34 @@
+{
+  "name": "bookplan",
+  "version": "0.0.6",
+  "description": "区块链研究",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "deploy": "node_modules/.bin/gulp deploy",
+    "summary": "node_modules/.bin/book -i node_modules,_book,_out,_static sm",
+    "pdf": "/usr/local/bin/gitbook pdf . _out/market-research.pdf",
+    "build": "/usr/local/bin/gitbook build . _static/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://blockchain-university.github.io/bookplan"
+  },
+  "keywords": [
+    "bitcoin",
+    "blockchain"
+  ],
+  "author": "黄立峰",
+  "license": "MIT",
+  "bugs": {
+    "url": "http://blockchain-university.github.io/bookplan/issues"
+  },
+  "homepage": "http://blockchain-university.github.io/bookplan#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gitbook-summary": "*",
+    "gulp": "^3.9.0",
+    "gulp-gh-pages": "^0.5.4"
+  }
+}

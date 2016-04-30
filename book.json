@@ -1,0 +1,23 @@
+{
+    "bookname": "区块链研究",
+    "description": "区块链研究",
+    "language": "zh",
+    "keywords": [
+        "区块链大学"
+        "bitcoin",
+        "conseweb",
+        "blockchain",
+        "hyperledger",
+        "区块链"
+    ],
+
+    "homepage": "http://blockchain-university.github.io/bookplan",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "http://blockchain-university.github.io/bookplan.git"
+    },
+    "bugs": {
+        "url": "http://blockchain-university.github.io/bookplan/issues"
+    }
+}
