@@ -23,7 +23,7 @@
   "bugs": {
     "url": "http://blockchain-university.github.io/bookplan/issues"
   },
-  "homepage": "http://blockchain-university.github.io/bookplan#readme",
+  "homepage": "http://blockchain-university.github.io/bookplan#summary",
   "dependencies": {},
   "devDependencies": {
     "del": "^2.2.0",
